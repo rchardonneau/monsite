@@ -1,1 +1,93 @@
-coucou
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique de Café de Spécialité</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-color: #8b4513;
+            color: white;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 20px;
+            max-width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .card p {
+            font-size: 1em;
+            color: #666;
+        }
+        .card button {
+            background-color: #8b4513;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #7a3f12;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Boutique de Café de Spécialité</h1>
+    <p>Découvrez nos cafés de spécialité provenant des quatre coins du monde</p>
+</div>
+
+<div class="container">
+    <div class="card">
+        <img src="coffee1.svg" alt="Café de Colombie">
+        <h2>Café de Colombie</h2>
+        <p>Un café doux et équilibré avec des notes de caramel et de chocolat.</p>
+        <button>Acheter maintenant</button>
+    </div>
+    <div class="card">
+        <img src="coffee2.svg" alt="Café d'Éthiopie">
+        <h2>Café d'Éthiopie</h2>
+        <p>Un café fruité et floral avec des arômes de baies et de fleurs.</p>
+        <button>Acheter maintenant</button>
+    </div>
+    <div class="card">
+        <img src="coffee3.svg" alt="Café du Brésil">
+        <h2>Café du Brésil</h2>
+        <p>Un café corsé et riche avec des notes de noix et de chocolat noir.</p>
+        <button>Acheter maintenant</button>
+    </div>
+</div>
+
+</body>
+</html>
