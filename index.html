@@ -59,6 +59,51 @@
         .card button:hover {
             background-color: #7a3f12;
         }
+        .testimonials, .prep-tips, .contact {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+            margin: 20px 0;
+        }
+        .testimonials h2, .prep-tips h2, .contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .testimonial, .tip {
+            margin: 10px 0;
+            font-style: italic;
+            color: #555;
+        }
+        .testimonial span, .tip span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact input, .contact textarea {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #8b4513;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #7a3f12;
+        }
     </style>
 </head>
 <body>
@@ -87,6 +132,48 @@
         <p>Un café corsé et riche avec des notes de noix et de chocolat noir.</p>
         <button>Acheter maintenant</button>
     </div>
+</div>
+
+<div class="testimonials">
+    <h2>Témoignages</h2>
+    <div class="testimonial">
+        "Le café colombien est tout simplement incroyable. J'adore ses notes de caramel !"
+        <span>- Marie</span>
+    </div>
+    <div class="testimonial">
+        "Le café éthiopien a une saveur unique que je n'ai trouvée nulle part ailleurs."
+        <span>- Jean</span>
+    </div>
+    <div class="testimonial">
+        "Le café brésilien est riche et corsé, parfait pour commencer la journée."
+        <span>- Sophie</span>
+    </div>
+</div>
+
+<div class="prep-tips">
+    <h2>Conseils de Préparation</h2>
+    <div class="tip">
+        Utilisez toujours de l'eau fraîche et filtrée pour préparer votre café.
+        <span>- Astuce #1</span>
+    </div>
+    <div class="tip">
+        Laissez le café reposer pendant 30 secondes après l'avoir moulu avant de verser de l'eau.
+        <span>- Astuce #2</span>
+    </div>
+    <div class="tip">
+        Expérimentez avec les ratios de café à l'eau pour trouver votre goût idéal.
+        <span>- Astuce #3</span>
+    </div>
+</div>
+
+<div class="contact">
+    <h2>Contactez-Nous</h2>
+    <form>
+        <input type="text" name="name" placeholder="Votre nom">
+        <input type="email" name="email" placeholder="Votre email">
+        <textarea name="message" rows="5" placeholder="Votre message"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
 </div>
 
 </body>
